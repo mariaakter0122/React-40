@@ -50,7 +50,7 @@ const Countries = () => {
                         <Country 
                             key={country.cca3} // Use a unique key (e.g., `cca3`)
                             country={country} 
-                        />
+                        ></Country>
                     )
                 }
             </div>
